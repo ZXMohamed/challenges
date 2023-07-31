@@ -1,0 +1,273 @@
+.formback{
+    height: 100vh;
+    width: 100%;
+    background-color: var(--elementbg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.centerform{
+    background-color: var(--bg);
+    width: 960px;
+    height: 660px;
+    border-radius: 30px;
+    overflow: hidden;
+    display: flex;
+    box-shadow: 0px 0px 20px #00000011;
+}
+.centerformmax{
+    width: 1200px;
+    height: 780px;
+}
+.leftstyle{
+    margin-top: 40px;
+    margin-left: -10px;
+    max-height: 580px;
+    width: 34%;
+    background: url(../../images/auth/leftimg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.rightstyle{
+    width: 67%;
+    height: 100%;
+}
+.topstyle{
+    width: 100%;
+    height: 20%;
+    display: flex;
+}
+.topleftstyle{
+    height: 100%;
+    width: 70%;
+}
+.toprightstyle{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* margin-bottom: -100px; */
+    color: var(--thirdtxt);
+    margin-left: -50px;
+    margin-top: 15px;
+}
+.topleftstyleimg1{
+    background: url(../../images/auth/qstyle.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 165px;
+    height: 90px;
+    margin-left: -140px;
+    display: inline-block;
+}
+.topleftstyleimg2{
+    background: url(../../images/auth/ystyle.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 130px;
+    height: 70px;
+    display: inline-block;
+    margin-left: -75px;
+    margin-bottom: -25px;
+    /* transform: rotate(2deg);     */
+}
+.formtitle,
+.formtitlemini{
+    color: var(--invert);
+    font-size: 40px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+.formtitlemini{
+    font-size: 28px;
+}
+.brandname{
+    font-size: 20px;
+}
+.brandsub{
+    font-size: 14px;
+}
+.top2style{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+.top2stylemini{
+    height: 40%;
+}
+.top2stylemax{
+    height: 43%;
+}
+.top2leftstyle{
+    width: 70%;
+}
+.top2leftstylemini{
+    width: 80%;
+}
+.authname{
+    margin-bottom: 20px;
+    color: var(--thirdtxt);
+    font-size: 18px;
+}
+.nameinput{
+    margin-bottom: 10px;
+}
+.nunberinput{
+    margin-bottom: 10px;
+}
+.emailinput{
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+.passinput{
+    margin-bottom: 20px;
+}
+.confpassinput{
+    margin-bottom: 10px;
+}
+.forgetpass{
+    color: var(--style);
+    font-size: 14px;
+    text-decoration: underline;
+    margin-bottom: 20px;
+    padding-left: 40px;
+}
+.forgetpass:hover{
+    color: var(--syle-d);
+}
+.newpassinput{
+    margin-bottom: 10px;
+}
+.confirmpassinput{
+    margin-bottom: 10px;
+}
+.genderinput{
+    margin-left: 60px;
+    margin-top: 35px;
+}
+.authinput{
+    border: 1px solid var(--conborder);
+    /* padding-left: 15px !important; */
+    padding: 5px 20px 5px 20px;
+    font-size: 14px;
+    width: 97%;
+}
+.authinputmini{
+    width: 47%;
+    margin-right: 20px;
+}
+.authinput:focus{
+    outline: none;
+}
+.maleradiogender{
+    margin-left: 5px;
+    margin-right: 15px;
+    border: 1px solid var(--male) !important;
+    box-shadow: none !important;
+    appearance: none;
+}
+.maleradiogender:checked{
+    /* filter: var(--chbox); */
+    background-color: var(--male);
+}
+.femaleradiogender{
+    margin-left: 5px;
+    margin-right: 15px;
+    border: 1px solid var(--female) !important;
+    box-shadow: none !important;
+    appearance: none;
+}
+.femaleradiogender:checked{
+    /* filter: var(--chbox); */
+    background-color: var(--female);
+}
+.formmsg{
+    display: none;
+    color: var(--E);
+    font-size: 14px;
+    padding-left: 30px;
+    margin-bottom: 10px;
+}
+.top2rightstyle{
+    background: url(../../images/auth/bstyle.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100px;
+    height: 160px;
+    margin-right: -10px;
+}
+
+
+.centerstyle{
+    direction: rtl;
+    width: 65%;
+}
+
+.loginbtn{
+    background-color: var(--style);
+    width: 90px;
+    color: var(--sitetxt);
+    height: 40px;
+}
+.loginbtn:hover,
+.loginbtn:active{
+    background-color: var(--style-d);
+    outline: none;
+    border: 0px;
+    color: var(--sitetxt);
+    box-shadow: none;
+}
+.bottom2style{
+    margin-top: 50px;
+    font-size: 16px;
+    width: 45%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: var(--thirdtxt);
+}
+.loginwaystxt{
+    margin-right: 20px;
+}
+.faceloginbtn{
+    border: 1px solid var(--style);
+    color: var(--style);
+    background-color: transparent;
+    width: 30px;    
+    margin: 5px;
+    margin-right: 10px;
+}
+.googleloginbtn{
+    border: 1px solid var(--E);
+    color: var(--E);
+    background-color: transparent;
+    width: 30px;    
+    margin: 5px;
+}
+
+.bottomstyle{
+    color: var(--thirdtxt);
+    margin-top: 50px;
+    width: 90%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 16px;
+}
+.tosigntxt{
+    margin-right: 25px;
+}
+.tosignicon{
+    font-family: "icons";
+    font-size: 28px;
+    color: var(--style);
+}
+.tosignicon:hover,
+.tosigntxt:hover+span{
+    color: var(--style-d);
+}

@@ -1,0 +1,143 @@
+/*---------------bs-edit*/
+
+/*---------------------*/
+/*-----------------nav*/
+
+/*-------------------*/
+/*---------------main*/
+.social{
+    min-height: 100vh;
+    margin: auto;
+    margin-bottom: 10px;
+    max-width: 1378px;
+    padding-left: 50px;
+    padding-right: 80px;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--bg-m);
+}
+/*-------------------*/
+/*---------------chat-marawan*/
+.chatmini{
+    width: 135px;
+    border: 0px solid var(--dividor2) !important;/*//!*/
+    padding-left: 15px;
+    padding-top: 20px;
+    border-width: 0px 0.5px 0px 0px;
+    position: sticky;
+    top: 80px;
+}
+.chatitems{
+    padding: 0px;
+}
+.chatitem{
+    margin-bottom: 25px;
+}
+.chaticon{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    position: relative;
+    background-color: var(--elementbg);
+}
+.chatnotify{
+    border-radius: 50%;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    bottom: 0px;
+    right: -10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--notifydot);
+    color: var(--sitetxt);
+    font-size: 12px;
+}
+/*-------------------*/
+/*------------profile-marawan*/
+.profilemini{
+    width: 364px;
+    padding: 30px 0px 0px 30px;
+    background-color: var(--bg-m);
+    /* border-left: 1px solid var(--dividor2); */
+    position: sticky;
+    top: 80px;
+}
+.profileinfo{
+    display: flex;
+    margin-left: -10px;
+    /* flex-wrap: wrap; */
+    /* justify-content: center; */
+    
+}
+.fd{
+    font-family: "icons";
+    color: var(--invert);
+    font-size: 12px;
+}
+.ft{
+    font-family: "icons";
+    color: var(--secondtxt);
+    font-size: 12px;
+}
+.profileimage {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: var(--elementbg);
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+.profilerightside{
+    margin-left: 25px;
+    padding-top: 15px;
+}
+.profilename{
+    margin-bottom: 15px;
+    color: var(--secondtxt);
+    font-size: 18px;
+
+}
+.profilespecialist{
+    margin-bottom: 15px;
+    color: var(--secondtxt);
+    font-size: 14px;
+
+}
+.profilefollowers{
+    color: var(--style);
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.subscriberscon{
+    width: 100%;
+    margin-top: 40px;
+}
+.subscribers{
+ margin-bottom: 25px;
+}
+.subscriberstitle {
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: var(--secondtxt)
+}
+.subscriberbar{
+    margin-bottom: 15px;
+    display: flex;
+}
+.subscriberphoto{
+    width: 47px;
+    height: 47px;
+    border-radius: 50%;
+    background-color: var(--elementbg);
+}
+.subscribername{
+    font-size: 14px;
+    margin-left: 20px;
+    color: var(--secondtxt);
+    display: flex;
+    align-items: center;
+}
+/*-------------------*/
