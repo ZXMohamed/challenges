@@ -15,7 +15,7 @@ document.getElementById("loginbtn").onclick = () => {
             // ...
             console.log(user);
             //?nav to social
-            location.replace("web/social.html")
+            location.replace("./web/social.html")
         })
         .catch((error) => {
             const errorCode = error.code;
@@ -29,7 +29,7 @@ onAuthStateChanged(auth, (user) => {
 
     if (user) {
 
-        location.replace("../../web/social.html");
+        location.replace("./web/social.html");
 
     } else {
         // User is signed out
@@ -39,7 +39,7 @@ onAuthStateChanged(auth, (user) => {
 });
 try {
    document.getElementById("logind").onclick = () => { 
-    location.replace("d/index.html");
+    location.replace("./d/index.html");
 }
 
 } catch (error) {
@@ -47,7 +47,7 @@ try {
 }
 try {
     document.getElementById("loginc").onclick = () => {
-        location.replace("../index.html");
+        location.replace("./index.html");
     }
 } catch (error) {
     
