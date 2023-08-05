@@ -123,7 +123,7 @@ function confirmemail() {
 
 try {
     document.getElementById("signupd").onclick = () => {
-        location.replace("../d/web/signup.html");
+        location.replace("./d/web/signup.html");
     }
 
 } catch (error) {
@@ -131,7 +131,7 @@ try {
 }
 try {
     document.getElementById("signupc").onclick = () => {
-        location.replace("../../web/signup.html");
+        location.replace("./web/signup.html");
     }
 } catch (error) {
 
