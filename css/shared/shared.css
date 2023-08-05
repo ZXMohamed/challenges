@@ -1023,6 +1023,7 @@ body::-webkit-scrollbar-thumb:hover,
     width: 100%;
 }
 .postcon{
+    overflow: hidden;
     margin: auto;
     margin-top: 15px;
     max-width: 593px;
