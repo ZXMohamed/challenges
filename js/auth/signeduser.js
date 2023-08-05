@@ -35,6 +35,6 @@ onAuthStateChanged(auth, (user) => {
   } else {
     // User is signed out
     // ...
-    location.replace("../index.html");
+    location.replace("./index.html");
   }
 });
