@@ -5,7 +5,7 @@ const auth = getAuth();
 document.getElementById("logoutbtn").onclick = () => { 
     signOut(auth).then(() => {
         // Sign-out successful.
-        location.replace("./index.html")
+        location.replace("../index.html")
     }).catch((error) => {
         // An error happened.
     });    
