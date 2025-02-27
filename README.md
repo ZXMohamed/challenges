@@ -16,7 +16,7 @@
 
 <details>
 <summary>
-<b align="left">ex : </b><small>click to open</small>
+<b align="left">ex : </b><small><small><small>click to open</small></small></small>
 </summary>
 <img src="ex/Picture1.png" width="1000px"/>
 <img src="ex/Picture2.png" width="1000px"/>
