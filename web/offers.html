@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../images/icon/icon.gif" rel="icon" />
+    <link href="../bootstrap-5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" >
+    <link rel="stylesheet" href="../css/shared/shared.css">
+    <link rel="stylesheet" href="../css/offers/style.css">
+    <link rel="stylesheet" href="../css/shared/size.css">
+    <title>challenge</title>
+</head>
+<body>
+    <nav class="pagenav d-flex align-items-center justify-content-between flex-nowrap">
+        <div style="width: 4%; min-width: 2%;" class="sty"></div>
+        <section class="sec1 d-flex align-items-center justify-content-between">
+            <div class="dropdown">
+                <span class="appsettings appsettings-572 pointerarow" data-bs-toggle="dropdown">&#xf0c9;</span>
+           
+                <div class="appsettingsmenu position-absolute">
+                    <ul class="dropdown-menu bsddm">
+                        <li><a class="dropdown-item bsddi" href="#">Contact</a></li>
+                        <li><a class="dropdown-item bsddi" href="#">Settings</a></li>
+                        <li><a class="dropdown-item bsddi" href="#">Mobile app</a></li>
+                        <li><a class="dropdown-item bsddi" href="#">About</a></li>
+                    </ul>
+                </div>
+                <!--sidemenu-572-->
+                <span class="appsettings appsettings-dis-572 pointerarow" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample">&#xf0c9;</span>
+                
+                <div class="offcanvas offcanvas-start sidemenu" tabindex="-1" id="offcanvasExample">
+                    <div class="offcanvas-header bsch">
+                        <div class="d-flex align-items-center justify-content-between bschp">
+                            <div style="background-position: center;border-radius: 50%;background-repeat: no-repeat;background-image: url('../images/icon/icon.gif'); background-size: cover; width: 30px;height: 30px;"></div>
+                            <div class="themebtn-canvas pointerarow" onclick="Dark()">
+                                <span class="tap themetap-canvas">theme</span>
+                                <span class="themeicon">&#xf186;</span>
+                            </div>
+                        </div>
+                        <span class="btn-close bscc" data-bs-dismiss="offcanvas"></span>
+                    </div><!--accordion-->
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                        <div class="accordion-item">
+                            <div class="accordion-header bsah" id="flush-headingOne">
+                                <input type="search" id="searchsideinput" class="searchinput-canvas" placeholder="Search offer">
+                                <span id="searchsidebtn" class="searchicon pointerarow">&#xf002;</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sidemenulist">
+                        <div class="sidemenulistitem">Contact</div>
+                        <div class="sidemenulistitem">Settings</div>
+                        <div class="sidemenulistitem">Mobile app</div>
+                        <div class="sidemenulistitem">About</div>
+                    </div>
+                    <div class="sidemenubrand">
+                        <span>Chellange</span>
+                        <span>lead you to freedom</span>
+                    </div>
+                </div>
+            </div>
+            <div style="background-position: center;border-radius: 50%;background-repeat: no-repeat;background-image: url('../images/icon/icon.gif'); background-size: cover; width: 30px;height: 30px;"></div>
+          
+            <a href="social.html" class="tap hometap pointerarow">Home</a>
+            <div class="themebtn pointerarow" onclick="Dark()">
+                <span class="tap themetap">theme</span>
+                <span class="themeicon">&#xf186;</span>
+            </div>
+            <div class="searchbar d-flex align-items-center">
+                <input type="search" id="searchinput" class="searchinput" placeholder="Search offer">
+                <span id="searchbtn" class="searchicon pointerarow">&#xf002;</span>
+            </div>
+         
+        </section>
+        <section class="sec2 d-flex align-items-center justify-content-between">
+            <div class="icontapsec dis-icontapsec">
+                <span class="icontap navsubscriptionicon pointerarow">&#xf0f0;</span>
+               
+                <span id="openchatbtn" class="icontap navchaticon pointerarow" data-bs-toggle="offcanvas" data-bs-backdrop="static" data-bs-target="#offcanvasBottom">&#xf086;</span>
+            </div>
+           
+            <div class="dropdown icontapsec dis-992-icontapsec">
+                <span class="icontap subscriptionicon pointerarow" data-bs-toggle="dropdown">&#xf00a;</span>
+              
+                <div class="searchsettingmenu position-absolute">
+                    <ul class="dropdown-menu bsddm-icons">
+                        <li><a class="dropdown-item bsddi icontap" href="offers.html">&#xf0f0;</a></li>
+                        
+                        <li><span class="dropdown-item bsddi icontap" data-bs-toggle="offcanvas" data-bs-backdrop="static" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">&#xf086;</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="dropdown">
+                <div class="usernav d-flex align-items-center pointerarow" data-bs-toggle="dropdown">
+                    <div id="navprofilephoto" class="userphoto"></div>
+                    <div class="usernavbody d-flex justify-content-between align-items-center">
+                        <span id="navprofilename" class="username"></span>
+                        <span class="menubtn pointerarow">&#xf0c9;</span>
+                    </div>
+                   
+                    <div class="usermenu position-absolute">
+                        <ul class="dropdown-menu bsddm-2">
+                            <li><span class="dropdown-item bsddi-2" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottomprofile"><span>Profile</span><span>&#xf406;</span></span></li>
+                           
+                            <li id="logoutbtn"><span class="dropdown-item bsddi-2" href="#"><span>Logout</span><span>&#xf14d;</span></span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </nav>    
+    <main class="offers">
+        <side class="viewby">
+            <section class="viewbygender">
+                <div>
+                    <input id="searchall" class="form-check-input" type="radio" name="gender" value="" id="flexCheckDefault" checked>
+                    <span style="color: var(--firsttxt);">All</span>
+                </div>
+                <div>
+                    <input id="searchmale" class="form-check-input" type="radio" name="gender" value="" id="flexCheckDefault">
+                    <span style="color: var(--firsttxt);">Male</span>
+                </div>
+                <div>
+                    <input id="searchfemale" class="form-check-input" type="radio" name="gender" value="" id="flexCheckDefault">
+                    <span style="color: var(--firsttxt);">Female</span>
+                </div>
+            </section>
+            <section class="viewbytime"></section>
+        </side>
+        <section class="selectedoffers">
+            <section class="resultinfo">
+                <side class="me-5">
+                    <span class="searchresulttitle">Doctors offers </span><span class="searchresulttitle">cards</span>
+                    <br>
+                    <span class="searchresultnum">Result number : </span><span id="rnum" class="searchresultnum">0</span>
+                </side>
+                <side>
+
+                </side>
+            </section>
+            <section id="offerspool" class="offersresult">
+
+            <div class="spinner-border text-secondary" role="status">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+            </section>
+
+            <section style="text-align: center; margin-top: 50px;text-decoration: underline;color: var(--thirdtxt);">end of offers</section>
+        </div>
+    </main>
+    <footer></footer>
+
+
+    <div class="offcanvas offcanvas-bottom chatform" data-bs-backdrop="static" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
+        <div class="offcanvas-header chatheader">
+            <section class="chatheaderleft d-flex align-items-center mt-3">
+                <span class="chatsopen pointerarow" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample">&#xf0c9;</span>
+                <div id="chatotherphoto" class="chatprofileimg"></div>
+                <span id="chatothername" class="chatprofilename"></span>            
+            </section>
+            
+            <div class="recentchats"></div>
+            <button type="button" class="btn-close chatclose" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body chatbody">
+    
+            <section id="chatviewer" class="chatmsgviewer">
+                <!--sender-->
+                <!-- <aside class="chatreceivedmsg">
+                    <section class="chatmsgprofile"><div class="chatmsgprofilephoto"></div><span class="chatmsgprofilename">samir abo elneil</span></section>
+                    <section class="chatreceivedmsgbody">123456ujjjjjjjjjjjjjjjjjjjjj<br>j0000000000000jjjjjkkkkkkkkkkkk</section>
+                </aside>
+                <aside class="chatreceivedmsg">
+                    <section class="chatreceivedmsgbody">hello agin</section>
+                </aside>
+                <aside class="chatreceivedmsg">
+                    <section class="chatmsgprofile"><div class="chatmsgprofilephoto"></div><span class="chatmsgprofilename">samir abo elneil</span></section>
+                    <section class="chatreceivedmsgbody">123456ujjjjjjjjjjjjjjjjjjjjj<br>j0000000000000jjjjjkkkkkkkkkkkk</section>
+                </aside>
+                <aside class="chatreceivedmsg">
+                    <section class="chatreceivedmsgbody">hello agin</section>
+                </aside> -->
+                <!--me-->
+                <!-- <aside class="chatsentmsg">
+                    <section class="chatsentmsgbody">123456ujjjjjjjjjjjjjjjjjjjjj<br>j0000000000000jjjjjkkkkkkkkkkkk</section>
+                </aside>
+                <aside class="chatsentmsg">
+                    <section class="chatsentmsgbody">hello agin</section>
+                </aside> -->
+                <!--sender-->
+                <!-- <aside class="chatreceivedmsg">
+                    <section class="chatmsgprofile"><div class="chatmsgprofilephoto"></div><span class="chatmsgprofilename">samir abo elneil</span></section>
+                    <section class="chatreceivedmsgbody">123456ujjjjjjjjjjjjjjjjjjjjj<br>j0000000000000jjjjjkkkkkkkkkkkk</section>
+                </aside> -->
+                <!--me-->
+                <!-- <aside class="chatsentmsg">
+                    <section class="chatsentmsgbody">123456ujjjjjjjjjjjjjjjjjjjjj<br>j0000000000000jjjjjkkkkkkkkkkkk</section>
+                </aside>
+                <aside class="chatsentmsg">
+                    <section class="chatsentmsgbody">hello agin</section>
+                </aside> -->
+            </section>
+            <!--<section>
+                 <div class="chatpickphotoimg"></div>
+                <div class="chatpickphotoimg"></div>
+                <div class="chatpickphotoimg"></div>
+                <div class="chatpickphotoimg"></div>
+                <div class="chatpickphotoimg"></div>
+                <div class="chatpickphotoimg"></div>
+                 
+                <div class="dropdown">-->
+                    <!--<div class="chatpickphotoadd pointerarow" data-bs-toggle="dropdown">&#xf067;</div>
+                     <ul class="dropdown-menu bsddm">
+                    <li><a class="dropdown-item bsddi" href="#">camera</a></li>
+                    <li><a class="dropdown-item bsddi" href="#">local photo</a></li>
+                    <li><a class="dropdown-item bsddi" href="#">ignore</a></li>
+                    </ul> 
+                </div>
+            </section>-->
+            <section class="chatcontrols">
+                <textarea id="chatinput" placeholder="write a message" class="chatcommentinput pointerarow"></textarea>
+                <div id="chatsendmsgbtn" class="">
+                    <span class="chatcontrolsicons chatloveicon pointerarow">&#xf1d8;</span>
+                </div>
+                <!-- <div data-bs-toggle="collapse" data-bs-target="#collapseOnechat"  class="ms-3">
+                    <span class="chatcontrolsicons chatcommenticon pointerarow">&#xf302;</span>
+                </div> -->
+            </section>
+    
+            <aside>
+                <div class="collapse collapse-horizontal" id="collapseWidthExample">
+                    <div class="card card-body chatcontactsbody" ><!--style="width: 0px;"-->
+                        <ul id="contactlist" class="list-group list-group-flush chatcontacts" style="max-width: 400px;">
+                        
+                        </ul>
+                    </div>
+                </div>  
+            </aside>
+    
+        </div>
+        </div>
+    
+    
+    <div class="offcanvas offcanvas-top profileform" data-bs-backdrop="static" tabindex="-1" id="offcanvasBottomprofile"
+        aria-labelledby="offcanvasBottomLabel">
+        <header class="offcanvas-header profileheader">
+            <button type="button" class="btn-close profileclose" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </header>
+        <header class="profileheaderout">
+            <section class="profileprofilesec">
+                <div class="profileprofilephotostyleborder">
+                    <div id="profilephoto" class="profileprofilephoto"></div>
+                </div>
+                <div class="profileprofiletxt">
+                    <span id="profilename" class="profileprofilename"></span><br>
+                    <span id="profileemail" class="profileprofilenamex"></span>
+                </div>
+            </section>
+    
+            <section class="profilestatics">
+                <span id="profilegender" class="profilestaticsflowers" style="font-family: icons;">&#xf183; Male</span>
+            </section>
+    
+
+        </header>
+        <section class="offcanvas-body profilebody">
+            <div class="accordion profilebars" id="accordionExample">
+                <section class="accordion-item profilebar">
+                    <h2 class="accordion-header profilebarheader" id="flush-headingOne">
+                        <button class="accordion-button collapsed profilebarheaderopen" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#flush-collapseOnedoctor" aria-expanded="false"
+                            aria-controls="flush-collapseOne">
+                            Uesr
+                        </button>
+                    </h2>
+                    <div id="flush-collapseOnedoctor" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body profilebarbody">
+                            <div class="namephotoform">
+                                <input id="profilefirstname" type="text" class="profilebarname profilebarinput me-3"
+                                    placeholder="First name">
+                                <input id="profilesecondname" type="text" class="profilebarname profilebarinput"
+                                    placeholder="Second name">
+                      
+                                <span id="nouphotobtn" class="profilebarphoto pointerarow"> &#xf00d;</span>
+                                <label id="localphotobtn" for="photobrowser" class="profilebarphoto pointerarow">
+                                    &#xf03e;</label>
+                                <input id="photobrowser" type="file" hidden accept=".jpeg,.jpg,.png" />
+                              
+                            </div>
+                            <div class="ageform">
+                                <input id="profileage" readonly type="number" min="15" max="100" placeholder="Age"
+                                    class="age profilebarinput w-100">
+                            </div>
+                            
+                            <div style="width: 100%; direction: rtl; margin-left: -15px;">
+                                <button id="saveprofiledatabtn" class="profileformbtn savepassbutton">save</button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="accordion-item profilebar">
+                    <h2 class="accordion-header profilebarheader" id="flush-headingOne">
+                        <button class="accordion-button collapsed profilebarheaderopen" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#flush-collapseOneaccount" aria-expanded="false"
+                            aria-controls="flush-collapseOne">
+                            Account
+                        </button>
+                    </h2>
+                    <div id="flush-collapseOneaccount" class="accordion-collapse collapse"
+                        aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body profilebarbody">
+                            <button class="profileformbtn removeaccountbutton">Remove Account</button>
+                        </div>
+                    </div>
+                </section>
+                <section class="accordion-item profilebar">
+                    <h2 class="accordion-header profilebarheader" id="flush-headingOne">
+                        <button class="accordion-button collapsed profilebarheaderopen" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#flush-collapseOnepassword" aria-expanded="false"
+                            aria-controls="flush-collapseOne">
+                            Password
+                        </button>
+                    </h2>
+                    <div id="flush-collapseOnepassword" class="accordion-collapse collapse"
+                        aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body profilebarbody">
+                            <div class="profilepasswordbar">
+                                <input id="profileformpassinput" type="password" class="profilepassword profilebarinput"
+                                    placeholder="password"> <span class="profileshowpass pointerarow"
+                                    onclick="showpass('profileformpassinput',this)">&#xf06e;</span>
+                            </div>
+                            <div class="profilepasswordbar">
+                                <span id="profileformpassmsg" class="profilepasswordmsg"> Password should be 6 chars contain
+                                    at lest one number and one capital char</span>
+                            </div>
+                            <div class="profilepasswordbar">
+                                <input id="profileformconpassinput" type="password" class="profilepassword profilebarinput"
+                                    placeholder="confirm password"> <span class="profileshowpass pointerarow"
+                                    onclick="showpass('profileformconpassinput',this)">&#xf06e;</span>
+                            </div>
+                            <div class="profilepasswordbar">
+                                <span id="profileformconpassmsg" class="profilepasswordmsg"> Match the pass word
+                                    above</span>
+                            </div>
+                            <div class="savepassbuttonbar">
+                                <button id="profileresetpass" class="profileformbtn savepassbutton">save new
+                                    password</button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="accordion-item profilebar">
+                    <h2 class="accordion-header profilebarheader" id="savedbutton">
+                        <button class="accordion-button collapsed profilebarheaderopen" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#flush-collapseOnesaved" aria-expanded="false"
+                            aria-controls="flush-collapseOne">
+                            Saved
+                        </button>
+                    </h2>
+                    <div id="flush-collapseOnesaved" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body profilebarbody">
+                            <section class="w-100 d-flex justify-content-between align-items-center">
+                                <span style="color: var(--thirdtxt);">clear saved</span>
+                                <span id="clearsavedbtn" class="pointerarow"
+                                    style="font-family: 'icons';color: var(--thirdtxt);">&#xf2ed;</span>
+                            </section>
+                            <br>
+                            <section id="profilesavedpool">
+                                <div class="spinner-border text-secondary" role="status">
+                                    <span class="visually-hidden">Loading...</span>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                </section>
+                <section class="accordion-item profilebar">
+                    <h2 class="accordion-header profilebarheader" id="historybutton"><!--collection -->
+                        <button class="accordion-button collapsed profilebarheaderopen" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#flush-collapseOnehistory">
+                            History
+                        </button>
+                    </h2>
+                    <div id="flush-collapseOnehistory" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body profilebarbody">
+                            <section class="w-100 d-flex justify-content-between align-items-center">
+                                <span style="color: var(--thirdtxt);">clear history</span>
+                                <span id="clearhistorybtn" class="pointerarow"
+                                    style="font-family: 'icons';color: var(--thirdtxt);">&#xf2ed;</span>
+                            </section>
+                            <br>
+                            <section id="profilehistorypool">
+                                <div class="spinner-border text-secondary" role="status">
+                                    <span class="visually-hidden">Loading...</span>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </section>
+        <footer class="profilefooter">
+            <div class="profilefooterstyleborder">
+                <div class="profilefootersave">
+                    <span class="pointerarow"><i>Contact<i></span>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
+<span id="chatmini" style="display: none;"></span>
+</body>
+<script src="../bootstrap-5.3.0/dist/js/bootstrap.bundle.min.js" ></script>
+<script type="module" src="../js/server setup/setup.js"></script>
+<script type="module" src="../js/auth/signeduser.js"></script>
+<script type="module" src="../js/auth/logout.js"></script>
+<script type="module" src="../js/profile/profile.js"></script>
+<script type="module" src="../js/offers/offers.js"></script>
+<script type="module" src="../js/search/search.js"></script>
+<script type="module" src="../js/chat/chat.js"></script>
+<script src="../js/shared/shared.js"></script>
+</html>

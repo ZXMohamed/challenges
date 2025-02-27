@@ -1,0 +1,349 @@
+.dis-992-icontapsec,
+.appsettings-dis-572{
+    display: none;
+}
+@media (max-width: 1200px){
+    .sec1{
+        width: 600px;
+    }
+    .usernavbody{
+        display: none !important;
+    }
+    .usernav{
+        width: 50px;
+    }
+    .sec2{
+        width: 350px;
+        padding-left: 20px;
+    }
+    .themebtn{
+        margin-right: 15px;
+    }
+    .searchbar{
+        min-width: 200px;
+    }
+    .bsddm-2{
+        width: 150px;
+        transform: translate(49px, 31px) !important;
+    }
+    .offersresult{
+        padding-left: 30px;
+    }
+        #logind,#loginc,
+    #signupc,#signupd{
+        left: 30px;
+    }
+}
+@media (max-width: 1040px){
+    .social{
+        padding-left: 20px;
+        padding-right: 60px;
+    }
+    .offers{
+        justify-content: center;
+    }
+    .viewby{
+        display: none;
+    }
+    .selectedoffers{
+        width: 90%;
+    }
+    .resultinfo{
+        padding: 20px 20px 20px 20px;
+    }
+    .resultorder{
+        display: none;
+    }
+    .offersresult{
+        padding-left: 35px;
+    }
+    .centerform{
+        width: 100%;
+        max-height: 800px;
+        border-radius: 0px;
+    }
+
+}
+@media (max-width: 992px){
+    .searchbar{
+        min-width: 250px;
+    }
+    .sec2{
+        width: 350px;
+    }
+    .themebtn{
+        margin-right: 15px;
+    }
+    .hometap{
+        margin-right: 20px;
+    }
+    .appicon{
+        margin-right: 10px;
+    }
+    .postscon{
+        margin: 0px 0px 0px 20px;
+    }
+    .offersresult{
+        width: 100%;
+    }
+    .leftstyle{
+        display: none;
+    }
+    .rightstyle{
+        width: 100%;
+    }
+    .topleftstyleimg1{
+        margin-left: -80px;
+    }
+    .top2leftstyle{
+        margin-left: 50px;
+    }
+    .centerstyle{
+        width: 71%;
+    }
+    .forgetpass{
+        padding-left: 20px;
+    }
+    .bottom2style{
+        margin-left: 30px;
+        width: 60%;
+        justify-content: flex-start;
+        padding-left: 80px;
+    }
+}
+@media (max-width: 940px){
+    .sec2{
+        width: 150px;
+    }
+    .dis-icontapsec{
+        display: none;
+    }
+    .dis-992-icontapsec{
+        display: inline;
+        margin-left: 10px;
+    }
+    .social{
+        padding-left: 20px;
+        padding-right: 160px;
+    }
+    .chatmini{
+        padding-left: 40px;
+        margin-right: 30px;
+    }
+    .profilemini{
+        display: none;
+    }
+    .offersresult{
+        padding-left: 0px;
+    }
+    .selectedoffers {
+        width: 95%;
+    }
+}
+@media (max-width:768px) {
+    .searchbar{
+        min-width: 200px;
+    }
+    .themetap{
+        display: none;
+    }
+    .themebtn{
+        min-width: 30px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 0px;
+        margin-right: 15px;
+    }
+    
+    .social{
+        padding-left: 20px;
+        padding-right: 50px;
+    }
+
+    .offerleftside{
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+    }
+
+}
+@media (max-width:700px) {
+    .sec2{
+        width: 150px;
+    }
+    .social{
+        padding-left: 20px;
+        padding-right: 20px;
+        justify-content: center;
+    }
+    .chatmini{
+        display: none;
+    }
+    .postscon{
+        margin: 0px 0px 0px 0px;
+    }
+    .postcontrolbtns{
+        min-width: 50px;
+    }
+    .bottom2style{
+        padding-left: 40px;
+    }
+}
+@media (max-width:572px) {
+    .dis-icontapsec{
+        display: block;
+    }
+    .dis-992-icontapsec{
+        display: none;
+        margin-left: 10px;
+    }
+    .sec1{
+        width: 160px;
+        padding-left: 30px;
+    }
+    .sec2{
+        width: 250px;
+    }
+    .sty{
+        display: none;
+    }
+    .appsettings-572{
+        display: none;
+    }
+    .appsettings-dis-572{
+        display: block;
+    }
+    .searchbar{
+        display: none !important;
+    }
+    .searchsettingicon{
+        display: none;
+    }
+    .themebtn{
+        display: none;
+    }
+    .postcontrols{
+        padding: 20px 20px 20px 20px;
+    }
+    .selectedoffers{
+        max-width: 95%;
+    }
+    .offersresult{
+        padding-top: 50px;
+    }
+    .offer{
+        flex-wrap: wrap;
+        margin-bottom: 70px;
+    }
+    .offerleft{
+        margin-top: -60px;
+    }
+    .offerrightside{
+        margin-top: -30px;
+    }
+    .centerform{
+        box-shadow: none;
+    }
+    .top2rightstyle{
+        display: none;
+    }
+    .top2leftstyle{
+        width: 85%;
+    }
+    .centerstyle{
+        width: 85%;
+    }
+}
+@media (max-width:450px) {
+    .postcontrols{
+        padding: 20px 65px 20px 65px;
+    }
+    .commentinputcon{
+        display: none;
+    }
+    .commentinputsmallcon{
+        display: block;
+    }
+    .social{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .toprightstyle{
+        display: none;
+    }
+    .top2leftstyle{
+        margin-left: 30px;
+    }
+    .bottom2style{
+        padding-left: 0px;
+        width: 80%;
+    }
+    .topleftstyle{
+        width: 100%;
+    }
+}
+@media (max-width:400px) {
+    .dis-icontapsec{
+        display: none;
+    }
+    .dis-992-icontapsec{
+        display: inline;
+        margin-left: 10px;
+    }
+    .sec2{
+        max-width: 130px;
+        min-width: 100px;
+    }
+    .sec1{
+        width: 150px;
+    }
+    .hometap{
+        margin-right: 0px;
+    }
+    .social{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+@media (max-width:350px) {
+    .postcontrols{
+        padding: 20px 35px 20px 35px;
+    }
+}
+@media (max-height:900px), (max-width:992px) {
+    .chatform,.profileform{
+        height: 100% !important;
+        background:var(--bg);
+        box-shadow: none;
+        top: 0px !important;bottom: unset;
+    }
+    .chatheader{
+        box-shadow: 1px 1px 10px #0000003d;
+        border-radius: 0px;
+        max-height: 80px;
+        position: relative;
+        top: 0px;
+        background:linear-gradient(180deg,var(--invert) 0% 15%,var(--style) 16% 100%);
+    }
+    .profileheader{
+        padding-top: 20px !important;
+    }
+    .profileheader,.chatheader{
+        box-shadow: 1px 1px 10px #0000003d; 
+        max-height: 100px;  
+        background:var(--style);
+    }
+}
+@media (max-height:600px) {
+    .centerform{
+        position: absolute;
+        top: 0px;
+    }
+}
+@media (max-height:500px) {
+    .sidemenubrand{
+        display: none;
+    }
+}

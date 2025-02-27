@@ -1,0 +1,12 @@
+document.getElementById("searchsocial").onclick=()=>{
+    document.location.assign("../web/offers.html")
+}
+document.getElementById("searchsocialbtn").onclick=()=>{
+    document.location.assign("../web/offers.html")
+}
+document.getElementById("ssearchsocial").onclick=()=>{
+    document.location.assign("../web/offers.html")
+}
+document.getElementById("ssearchsocialbtn").onclick=()=>{
+    document.location.assign("../web/offers.html")
+}

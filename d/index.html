@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href="../images/icon/icon.gif" rel="icon" />
+        <link
+            href="../bootstrap-5.3.0/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" type="" href="../css/shared/shared.css" />
+        <link rel="stylesheet" type="" href="../css/auth/style.css" />
+        <link rel="stylesheet" type="" href="../css/shared/size.css" />
+        <title>challenge</title>
+    </head>
+    <body>
+        <div class="formback">
+            <span id="loginc" style="font-family: icons;position: absolute;bottom: 30px; right: 30px;font-size: 30px;  display: block;" class="pointerarow">&#xf007;
+                <span style="font-size: 14px;"> I'm User</span>
+            </span>
+            <main class="centerform">
+                <section class="leftstyle"></section>
+                <section class="rightstyle">
+                    <section class="topstyle">
+                        <div class="topleftstyle">
+                            <div class="topleftstyleimg1"></div>
+                            <div class="topleftstyleimg2"></div>
+                            <span class="formtitle">Login</span>
+                        </div>
+                        <div class="toprightstyle">
+                            <span class="brandname"><b>challenge</b></span>
+                            <span class="brandsub">lead you to freedom</span>
+                        </div>
+                    </section>
+                    <section class="top2style">
+                        <div class="top2leftstyle">
+                            <div class="authname"><span>challenge</span></div>
+                            <div class="emailinput">
+                                <input
+                                    id="email"
+                                    class="authinput"
+                                    type="email"
+                                    placeholder="Email"/>
+                            </div>
+                            <div class="passinput">
+                                <input
+                                    id="pass"
+                                    class="authinput"
+                                    style="padding-right: 40px"
+                                    type="password"
+                                    placeholder="password"
+                                /><i
+                                    class="pointerarow"
+                                    style="
+                                        font-family: icons;
+                                        font-size: 12px;
+                                        margin-left: -32px;
+                                        color: var(--style);
+                                    "
+                                    onclick="showpass('pass',this)"
+                                    >&#xf06e;</i
+                                >
+                            </div>
+                        </div>
+                        <div class="top2rightstyle"></div>
+                    </section>
+                    <section class="centerstyle">
+                        <button id="loginbtn" class="btn loginbtn pointerarow">
+                            Login
+                        </button>
+                    </section>
+                    <section class="bottom2style">
+                        <span class="loginwaystxt"style="visibility: hidden;">Other ways to login : </span>
+                        <button class="googleloginbtn pointerarow"style="visibility: hidden;">G</button>
+                    </section>
+                    <a href="web/signup.html" class="bottomstyle">
+                        <span class="tosigntxt pointerarow"
+                            >Don't have an account
+                        </span>
+                        <span class="tosignicon pointerarow">&#xf105;</span>
+                    </a>
+                </section>
+            </main>
+        </div>
+    </body>
+    <script
+        src="../bootstrap-5.3.0/dist/js/bootstrap.bundle.min.js"
+        
+    ></script>
+    <script type="module" src="../js/server setup/setup.js"></script>
+    <script type="module" src="../js/auth/login.js"></script>
+    <script src="../js/shared/shared.js"></script>
+</html>
