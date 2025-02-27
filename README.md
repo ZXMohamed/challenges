@@ -16,7 +16,7 @@
 
 <details>
 <summary>
-<b align="left">ex : </b><small><small><small>click to open</small></small></small>
+<b align="left">ex : </b><h6>click to open</h6>
 </summary>
 <img src="ex/Picture1.png" width="1000px"/>
 <img src="ex/Picture2.png" width="1000px"/>
@@ -49,16 +49,18 @@
 
 <p align="left">
 <details>
-<summary><b>#Users : </b><small>click to open</small></summary>
+<summary><b>#Users : </b><h6>click to open</h6></summary>
+<dd>
 <b>Email : </b>johndoe123@gmail.com<br>
 <b>Password : </b>assassD1<br><br>
 <b>Email : </b>randomuser456@outlook.com<br>
 <b>Password : </b>123456Random<br><br>
 <b>Email : </b>demoaccount123@gmail.net<br>
 <b>Password : </b>assassD1<br><br>
+</dd>
 </details> 
 <details>
-<summary><b>#Doctors : </b><small>click to open</small></summary>
+<summary><b>#Doctors : </b><h6>click to open</h6></summary>
 <b>Email : </b>alexsmith999@outlook.com<br>
 <b>Password : </b>assassD1<br><br>
 <b>Email : </b>fakeuseralpha@xmail.net<br>
