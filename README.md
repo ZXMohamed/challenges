@@ -50,23 +50,21 @@
 <p align="left">
 <details>
 <summary><b>#Users : </b><h6>click to open</h6></summary>
-<dd>
-<b>Email : </b>johndoe123@gmail.com<br>
-<b>Password : </b>assassD1<br><br>
-<b>Email : </b>randomuser456@outlook.com<br>
-<b>Password : </b>123456Random<br><br>
-<b>Email : </b>demoaccount123@gmail.net<br>
-<b>Password : </b>assassD1<br><br>
-</dd>
+  <b>Email : </b>johndoe123@gmail.com<br>
+  <b>Password : </b>assassD1<br><br>
+  <b>Email : </b>randomuser456@outlook.com<br>
+  <b>Password : </b>123456Random<br><br>
+  <b>Email : </b>demoaccount123@gmail.net<br>
+  <b>Password : </b>assassD1<br><br>
 </details> 
 <details>
 <summary><b>#Doctors : </b><h6>click to open</h6></summary>
-<b>Email : </b>alexsmith999@outlook.com<br>
-<b>Password : </b>assassD1<br><br>
-<b>Email : </b>fakeuseralpha@xmail.net<br>
-<b>Password : </b>Emily 1234<br><br>
-<b>Email : </b>randommail789@yahoo.com<br>
-<b>Password : </b>assassD1</p>
+  <b>Email : </b>alexsmith999@outlook.com<br>
+  <b>Password : </b>assassD1<br><br>
+  <b>Email : </b>fakeuseralpha@xmail.net<br>
+  <b>Password : </b>Emily 1234<br><br>
+  <b>Email : </b>randommail789@yahoo.com<br>
+  <b>Password : </b>assassD1</p>
 </details> 
 
 ###
