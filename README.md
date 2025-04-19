@@ -10,7 +10,9 @@
 
 ###
 
-<p align="left"><b>Description : </b>a website for Addiction treatment and medical consultations in Addiction.</p>
+<p align="left"><b>Description : </b>A social media website for Addiction treatment, advice posts and medical consultations in       
+Addiction between the users and doctors through live chat, each doctor has a profile and user can review it and consult him/her using website text chat.
+</p>
 
 ###
 
