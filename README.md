@@ -16,6 +16,18 @@ Addiction between the users and doctors through live chat, each doctor has a pro
 
 ###
 
+<p align="left"><b>Features : </b>
+  <ul>
+    <li>Auth, search, filter doctors profile (gender), send posts (with attached photos), review and edit profile</li>
+    <li>User can react, comment, save posts, review posts history</li>
+    <li>Show doctors profile and chat with them</li>
+    <li>Responsive design + dark & light theme</li>
+    <li>Live chat page + create group chat (for doctors accounts only)</li>
+  </ul>
+</p>
+
+###
+
 <details>
 <summary>
 <b align="left">ex : </b><h6>click to open</h6>
